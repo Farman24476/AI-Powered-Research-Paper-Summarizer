@@ -44,5 +44,5 @@ Built with a clean and modular Python architecture, allowing seamless customizat
 
 ---
 
-This repository provides the full implementation, including model configurations, preprocessing scripts, evaluation utilities, and examples. It is well-suited for use in academic institutions, research labs, and AI-driven content platforms.
+This repository provides the full implementation, including model configurations, preprocessing scripts, evaluation utilities, and examples. It is well-suited for use in academic institutions, research labs, and AI-driven content platforms..
 
