@@ -1,35 +1,48 @@
 # AI-Powered Research Paper Summarizer
 
-An intelligent NLP tool that extracts and summarizes the Introduction, Methodology, Results, and Conclusion sections from academic research papers using state-of-the-art transformer-based models. Designed to help researchers and students save time by generating coherent, section-wise summaries of long research papers.
 
-## 1. Features
+This project presents an advanced Natural Language Processing (NLP) tool designed to automatically extract and summarize key sections—**Introduction**, **Methodology**, **Results**, and **Conclusion**—from academic research papers. Leveraging state-of-the-art transformer-based models, this tool enables researchers, students, and professionals to quickly understand the core content of complex scholarly documents.
 
-1.1. **Automatic Section Detection**  
-Identifies key sections like Introduction, Methodology, Results, and Conclusion from PDFs or plain-text files.
+## Features
 
-1.2. **Transformer-Based Summarization**  
-Utilizes powerful pre-trained models like Pegasus, T5, and GPT for generating concise summaries.
+**1. Automatic Section Detection**  
+Efficiently identifies structural components of a research paper, including Introduction, Methodology, Results, and Conclusion, from both PDF and plain-text formats.
 
-1.3. **Summary Evaluation**  
-Supports automatic quality assessment using ROUGE, BLEU, and BERTScore metrics.
+**2. Transformer-Based Summarization**  
+Employs cutting-edge pre-trained language models such as Pegasus, T5, and GPT to generate coherent and contextually accurate summaries of each section.
 
-1.4. **Flexible Input Support**  
-Accepts academic papers in PDF and plain text formats.
+**3. Summary Evaluation**  
+Includes automatic evaluation metrics such as ROUGE, BLEU, and BERTScore to assess the quality of generated summaries.
 
-1.5. **Modular and Extensible**  
-Clean, modular Python codebase, making it easy to customize or extend.
+**4. Flexible Input Support**  
+Compatible with both academic PDFs and plain-text files, ensuring wide usability across different sources and formats.
 
-## 2. Technologies Used
+**5. Modular and Extensible Design**  
+Built with a clean and modular Python architecture, allowing seamless customization, integration, and enhancement for specific research or enterprise needs.
 
-2.1. Python  
-2.2. Hugging Face Transformers  
-2.3. Pegasus / GPT / T5 (for summarization)  
-2.4. NLTK and spaCy (for preprocessing and NLP tasks)  
-2.5. Evaluate (for ROUGE, BLEU, and BERTScore)  
-2.6. PyMuPDF or PDFMiner (for PDF parsing)
+## Technologies Used
 
-## 3. Use Cases
+- **Programming Language**: Python  
+- **NLP Libraries**: Hugging Face Transformers, NLTK, spaCy  
+- **Summarization Models**: Pegasus, T5, GPT  
+- **Evaluation Tools**: ROUGE, BLEU, BERTScore (via the `evaluate` library)  
+- **PDF Parsing**: PyMuPDF (fitz) or PDFMiner for reliable text extraction from academic PDFs
 
-3.1. Quickly get the gist of lengthy academic research papers.  
-3.2. Efficiently review multiple papers for literature reviews.  
-3.3. Improve reading productivity for students, researchers, and professionals.
+## Use Cases
+
+- Rapid comprehension of lengthy and technical academic papers  
+- Accelerated literature review for academic writing or research proposals  
+- Productivity enhancement for students, researchers, educators, and policy analysts  
+- Integration into scholarly search engines, academic platforms, or institutional research repositories
+
+## Benefits
+
+- Saves valuable time during the research process  
+- Ensures consistency in reviewing large volumes of literature  
+- Enhances accessibility to scientific knowledge by providing digestible summaries  
+- Enables integration with downstream academic workflows, such as citation management and literature mapping
+
+---
+
+This repository provides the full implementation, including model configurations, preprocessing scripts, evaluation utilities, and examples. It is well-suited for use in academic institutions, research labs, and AI-driven content platforms.
+
